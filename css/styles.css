@@ -1,8 +1,3 @@
-#title {
-    background-color: #FF4C68;
-    color: white;
-}
-
 body {
     font-family: "Montserrat";
 }
@@ -12,24 +7,34 @@ a {
     columns: inherit;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+
 }
 
-h1 {
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.big-heading {
     font-size: 4rem;
     font-weight: 900;
     line-height: 1.5;
 }
 
-h2{
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 /* NavBar */
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
 
 .navbar {
     padding: 0 0 4.5rem;
