@@ -162,57 +162,30 @@ h2{
     }
 }
 
-/* Call to Action Section */
+/* CTA Setion */
 #cta {
     background-color: #FF4C68;
     text-align: center;
-}
-
-.true-love {
-    margin: 0 15%;
+    padding: 7% 15%;
+    color: white;
 }
 
 .love {
     font-family: "Montserrat";
     font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 5rem 5rem 4rem 5rem;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
-.footer-download-btn {
-    margin-bottom: 5rem;
-}
-
-@media (max-width: 767px) {
-    .true-love {
-        margin: 0;
-    }
-
-    .love {
-        font-size: 30px;
-        padding: 3rem 3rem 1rem 3rem;
-    }
-}
+/* Footer Section */
 
 #footer {
+    padding: 7% 15%;
     text-align: center;
 }
 
-.social {
-    width: 2rem;
-    padding: 5rem 0 1.25rem 0;
-}
-
 .footer-icon {
-    font-size: 1.15rem;
-}
-
-.footer-links {
+    margin: 20px 10px;
     text-decoration: none;
-    color: black;
-}
-
-.copyright {
-    padding-bottom: 1rem;
+    color: #333333;
 }
