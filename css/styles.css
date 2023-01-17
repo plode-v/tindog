@@ -12,8 +12,21 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+/* Containers */
+
 .container-fluid {
     padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* NavBar */
@@ -45,13 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Title Section */
 
-#title {
-    background-color: #FF4C68;
-    color: white;
-    text-align: left;
-}
-
 #title .container-fluid {
+    text-align: left;
     padding: 3% 12% 7%;
 }
 
@@ -75,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Features Section */
 
 #features{
-    background-color: white;
     position: relative;
 }
 
@@ -103,9 +110,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Testimonials Section */
 
-#testimonials{
+#testimonials {
     background-color: #EF8172;
-    color: white;
 }
 
 .testimonial-img {
@@ -156,10 +162,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* CTA Setion */
-#cta {
-    background-color: #FF4C68;
-    color: white;
-}
 
 .cta-text {
     font-family: "Montserrat";
